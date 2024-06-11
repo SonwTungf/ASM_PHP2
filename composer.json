@@ -1,0 +1,26 @@
+{
+    "name": "pc/xuong_oop",
+    "autoload": {
+        "psr-4": {
+            "Pc\\XUONG_OOP\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
+ 
+    
+    },
+    "authors": [
+        {
+            "name": "SonTungTogru",
+            "email": "tunghsph46148@fpt.edu.vn"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.6",
+        "doctrine/dbal": "^4.0",
+        "eftec/bladeone": "^4.13",
+        "rakit/validation": "^1.4"
+    }
+}
